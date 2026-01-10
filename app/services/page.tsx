@@ -2,66 +2,56 @@
 
 import { motion } from "framer-motion";
 import ServiceCard from "@/components/ServiceCard";
-import {
-  Hammer,
-  Paintbrush,
-  SquareStack,
-  Layers,
-  Sofa,
-  TreePine,
-  Home,
-  Wrench,
-} from "lucide-react";
 
 const services = [
   {
     id: "carpentry",
     title: "Carpentry & Joinery",
     description: "Our specialty. Expert craftsmanship in custom woodwork, bespoke furniture, and structural timber projects. We bring years of experience and attention to detail to every carpentry and joinery project, ensuring precision and quality in every cut, joint, and finish.",
-    icon: Hammer,
+    image: "/carpentry.jpg",
     featured: true,
   },
   {
     id: "woodwork",
     title: "Custom Woodwork",
     description: "Bespoke woodwork solutions tailored to your specific needs. From custom cabinets and shelving to unique architectural features, we create beautiful, functional pieces that enhance your space.",
-    icon: TreePine,
+    image: "/carpentry.jpg",
   },
   {
     id: "furniture",
     title: "Bespoke Furniture",
     description: "Handcrafted furniture designed and built to your exact specifications. Each piece is a work of art, combining functionality with aesthetic appeal to create furniture that stands the test of time.",
-    icon: Sofa,
+    image: "/carpentry.jpg",
   },
   {
     id: "timber",
     title: "Structural Timber Projects",
     description: "Professional structural timber work for residential and commercial projects. From framing to complex structural elements, we ensure strength, durability, and code compliance in every project.",
-    icon: TreePine,
+    image: "/carpentry.jpg",
   },
   {
     id: "painting",
     title: "Painting & Decorating",
     description: "Professional interior and exterior painting services with meticulous attention to detail. We use premium paints and techniques to deliver flawless finishes that transform your space.",
-    icon: Paintbrush,
+    image: "/painting and decorating .jpg",
   },
   {
     id: "carpet",
     title: "Carpet Fitting",
     description: "Expert carpet installation and fitting services for residential and commercial properties. We ensure perfect fitting, proper preparation, and professional finishing for carpets that look and feel great.",
-    icon: Layers,
+    image: "/carpentry.jpg",
   },
   {
     id: "tiling",
     title: "Tiling",
     description: "Precision tile installation for bathrooms, kitchens, and commercial spaces. From intricate patterns to large-format tiles, we deliver flawless results with attention to detail and proper waterproofing.",
-    icon: SquareStack,
+    image: "/tiling.jpg",
   },
   {
     id: "refurbishment",
     title: "General Refurbishment",
     description: "Complete property refurbishment services for both residential and commercial clients. We manage every aspect of your renovation project, ensuring seamless coordination and exceptional results.",
-    icon: Home,
+    image: "/carpentry.jpg",
   },
 ];
 
@@ -102,8 +92,7 @@ export default function ServicesPage() {
                 <ServiceCard
                   title={service.title}
                   description={service.description}
-                  icon={service.icon}
-                  featured={service.featured}
+                  image={service.image}
                 />
               </motion.div>
             ))}
