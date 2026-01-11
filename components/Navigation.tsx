@@ -51,10 +51,10 @@ export default function Navigation() {
               className="flex items-center"
             >
               <Image
-                src="/logo.svg"
+                src="/new-logo-no-background.png"
                 alt="Quick Fix Construction Logo"
-                width={180}
-                height={54}
+                width={240}
+                height={72}
                 className="h-10 w-auto"
                 priority
               />
@@ -79,11 +79,11 @@ export default function Navigation() {
                 className="flex items-center"
               >
                 <Image
-                  src="/logo.svg"
+                  src="/new-logo-no-background.png"
                   alt="Quick Fix Construction Logo"
-                  width={180}
-                  height={54}
-                  className="h-12 w-auto"
+                  width={320}
+                  height={96}
+                  className="h-16 w-auto"
                   priority
                 />
               </motion.div>

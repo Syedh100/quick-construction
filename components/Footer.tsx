@@ -17,11 +17,11 @@ export default function Footer() {
           {/* Logo - Left aligned */}
           <Link href="/" className="inline-block" style={{ marginBottom: '40px' }}>
             <Image
-              src="/logo.svg"
+              src="/new-logo-no-background.png"
               alt="Quick Fix Construction Logo"
-              width={220}
-              height={66}
-              className="h-16 sm:h-20 w-auto"
+              width={360}
+              height={108}
+              className="h-24 sm:h-28 w-auto"
             />
           </Link>
 

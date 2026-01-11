@@ -25,7 +25,7 @@ export default function RootLayout({
       <body className={`${inter.variable} antialiased`}>
         <Navigation />
         <main className="min-h-screen">
-          {children}
+        {children}
         </main>
         <Footer />
       </body>
